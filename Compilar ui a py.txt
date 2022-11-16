@@ -1,0 +1,1 @@
+pyuic5 -x tudibujo.ui -o tuarchivo.py
