@@ -1,0 +1,1 @@
+pyuic5 sispresupuesto.ui > sispresupuesto.py

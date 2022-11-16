@@ -14,7 +14,7 @@
    <string>Sistema Presupuesto</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="label_titulo_principal">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -34,7 +34,7 @@
      <string>Sistema Presupuesto</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="label_proveedor">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -47,7 +47,7 @@
      <string>Proveedor:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="label_dolar">
     <property name="geometry">
      <rect>
       <x>650</x>
@@ -60,7 +60,7 @@
      <string>Dolar:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="label_datos_cliente">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -73,7 +73,7 @@
      <string>Datos del Cliente</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
+   <widget class="QLabel" name="label_datos_producto">
     <property name="geometry">
      <rect>
       <x>450</x>
@@ -86,7 +86,7 @@
      <string>Datos del Producto</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_6">
+   <widget class="QLabel" name="label_nombre_cliente">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -99,7 +99,7 @@
      <string>Nombre:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_7">
+   <widget class="QLabel" name="label_telefono_cliente">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -112,7 +112,7 @@
      <string>Telf.:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_8">
+   <widget class="QLabel" name="label_nombre_producto">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -125,7 +125,7 @@
      <string>Nombre:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_9">
+   <widget class="QLabel" name="label_codigo_producto">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -138,7 +138,7 @@
      <string>Codigo:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_10">
+   <widget class="QLabel" name="label_precio_producto">
     <property name="geometry">
      <rect>
       <x>640</x>
@@ -151,7 +151,7 @@
      <string>Precio:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_11">
+   <widget class="QLabel" name="label_cantidad_producto">
     <property name="geometry">
      <rect>
       <x>630</x>
@@ -164,7 +164,7 @@
      <string>Cantidad:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_12">
+   <widget class="QLabel" name="label_titulo_tabla">
     <property name="geometry">
      <rect>
       <x>380</x>
@@ -187,7 +187,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="lineEdit_dolar">
     <property name="geometry">
      <rect>
       <x>680</x>
@@ -217,7 +217,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_5">
+   <widget class="QLineEdit" name="lineEdit_nombre_producto">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -227,7 +227,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_6">
+   <widget class="QLineEdit" name="lineEdit_codigo">
     <property name="geometry">
      <rect>
       <x>302</x>
@@ -237,7 +237,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_7">
+   <widget class="QLineEdit" name="lineEdit_cantidad">
     <property name="geometry">
      <rect>
       <x>680</x>
@@ -247,7 +247,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_8">
+   <widget class="QLineEdit" name="lineEdit_precio">
     <property name="geometry">
      <rect>
       <x>680</x>
@@ -257,7 +257,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="boton_procesar_presupuesto">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -270,7 +270,7 @@
      <string>Procesar Presupuesto</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="boton_procesar_pedido">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -283,7 +283,7 @@
      <string>Procesar Pedido</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="boton_limpiar_lista">
     <property name="geometry">
      <rect>
       <x>680</x>
@@ -296,7 +296,7 @@
      <string>Limpiar Lista</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="boton_calcular_total">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -309,7 +309,7 @@
      <string>Calcular Total</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="boton_agregar">
     <property name="geometry">
      <rect>
       <x>700</x>
@@ -322,17 +322,7 @@
      <string>Agregar</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>510</y>
-      <width>141</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="boton_guardar">
     <property name="geometry">
      <rect>
       <x>550</x>
@@ -345,7 +335,7 @@
      <string>Guardar</string>
     </property>
    </widget>
-   <widget class="QDateTimeEdit" name="dateTimeEdit">
+   <widget class="QDateTimeEdit" name="hora_dato">
     <property name="geometry">
      <rect>
       <x>693</x>
@@ -355,7 +345,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QTableWidget" name="tableWidget">
+   <widget class="QTableWidget" name="tabla_productos">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -384,6 +374,16 @@
       <string>Precio</string>
      </property>
     </column>
+   </widget>
+   <widget class="QTextEdit" name="tex_resultados">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>510</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
